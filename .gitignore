@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Dataset: do not upload large or licensed raw data
+data/*
+!data/.gitkeep
+
+# Trained models and checkpoints
+models/*
+!models/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
